@@ -37,5 +37,5 @@ flowchart TD
     C --> D[User Exports GeoJSON]
     D --> E[Extract Coordinates + Dates]
     E --> F[Compute Change using Sentinel-1]
-    F --> G[Export to Google Drive]
+    F --> G[Export to Drive]
     G --> H[Open Google Maps + GEE Editor]
